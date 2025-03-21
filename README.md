@@ -45,7 +45,7 @@ python bluesky_weather.py
 
 ```
 ========================================
- 7-Day Weather Forecast for Vaniyampettai - Arakkonam
+ 7-Day Weather Forecast for Bangalore
 ========================================
 📅 Date: 2025-03-21
 🌤 Weather: Sunny
