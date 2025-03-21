@@ -1,4 +1,3 @@
-
 # BlueSky Weather Forecast
 
 BlueSky Weather Forecast is a Python-based weather monitoring system that fetches 7-day weather forecasts from the WeatherAPI, formats the data, and stores it in both CSV files and an SQLite database for future use.
@@ -45,7 +44,7 @@ python bluesky_weather.py
 
 ```
 ========================================
- 7-Day Weather Forecast for Bangalore
+ 7-Day Weather Forecast for Vaniyampettai - Arakkonam
 ========================================
 📅 Date: 2025-03-21
 🌤 Weather: Sunny
@@ -72,6 +71,21 @@ Data is stored in `weather.db` under the `weather` table. To view stored data:
 ```bash
 sqlite3 weather.db
 SELECT * FROM weather;
+```
+
+## Project Structure 📂
+
+```bash
+BlueSky-Weather-Forecast/
+│── data/                           # Directory for storing data files
+│   ├── weather_data.csv            # CSV file with weather data
+│   ├── weather.db                  # SQLite database file
+│── scripts/                        # Python scripts directory
+│   ├── bluesky_weather.py          # Main script to fetch and store weather data
+│── .gitignore                      # Ignore database and CSV files from Git
+│── README.md                       # Project documentation
+│── requirements.txt                # List of dependencies
+│── LICENSE                         # Project license
 ```
 
 ## Next Steps 🚀
